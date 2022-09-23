@@ -1,0 +1,18 @@
+Get two integers a and b from the user and write a python program to relate 2 integers as equal to, less than or greater than. 
+Sample Input: 
+17
+12
+Sample Output: 
+17 greater than 12
+
+program:-
+x=int(input())
+y=int(input())
+if(y<x):
+    print("%d is greater than %d"%(x,y))
+    
+if(x==y):
+    print("%d is equal to %d"%(x,y))
+    
+if(x<y):
+    print("%d is less than %d"%(x,y))
